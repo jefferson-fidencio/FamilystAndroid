@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_profile"
+            android:tint="@color/cor_preto"
+            android:padding="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/imageView" />
+
+        <LinearLayout
+            android:layout_width="257dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/nome_comentario_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jefferson Fidêncio"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="13dp"/>
+
+            <TextView
+                android:id="@+id/descricao_comentario_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Realmente uma pena, queria muito ir nesse churrasco! :("
+                android:textSize="15dp"/>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/data_comentario_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20/12"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="3dp"
+            android:textSize="10dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

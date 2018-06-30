@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_weight="2"
+            android:layout_margin="5dp"
+            android:id="@+id/btn_tirar_foto"
+            android:text="Tirar Foto"
+            android:textColor="@color/cor_branco"
+            android:background="@color/colorPrimary"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_weight="2"
+            android:layout_margin="5dp"
+            android:id="@+id/btn_foto_galeria"
+            android:text="Galeria"
+            android:textColor="@color/cor_branco"
+            android:background="@color/colorPrimary"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:id="@+id/img_cadastro_foto"
+        android:src="@drawable/fundo_cadastro_img"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_descricao_foto_cadastro"
+        android:hint="Descrição da foto."/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="CADASTRAR"
+        android:background="@color/cor_padrao"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/cor_branco"
+        android:id="@+id/btn_cadastrar_foto"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

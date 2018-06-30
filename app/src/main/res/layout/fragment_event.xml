@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:gravity="start"
+
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:tint="@color/cor_preto"
+            android:src="@drawable/ic_profile"/>
+
+        <TextView
+            android:id="@+id/criadorEvento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jean Carlo criou esse evento"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:textSize="15dp"/>
+
+    </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:id="@+id/btn_confirmar_presenca"
+                android:text="Confirmar presença"
+                android:textColor="@color/cor_branco"
+                android:background="@color/colorPrimary"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/txt_presenca_confirmada"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="Sua presença foi confirmada."
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="38dp"
+                android:layout_marginStart="38dp" />
+
+        </RelativeLayout>
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descrição"
+        android:layout_margin="5dp"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/descricaoEvento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vamos nos divertir nesse momento com a família! Traga todo mundo e vamos ser felizes! :)"
+        android:layout_marginLeft="10dp"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Local"
+        android:layout_margin="10dp"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/localEvento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rua dos Bobos, numero 0"
+        android:layout_marginLeft="10dp"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Itens"
+        android:layout_margin="10dp"
+        android:textSize="15dp"/>
+
+    <ListView
+        android:id="@+id/list_itens"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ListView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Comentários"
+        android:layout_margin="10dp"
+        android:textSize="15dp"/>
+
+    <ListView
+        android:id="@+id/list_comentarios"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+    </ListView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/scroll_view"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="Escreva um comentário..."
+                android:id="@+id/txt_comentario_enviar"
+                android:layout_weight="5"
+                />
+
+            <ImageButton
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_gravity="end"
+                android:layout_weight="0.95"
+                android:id="@+id/btn_enviar_comentario"
+                android:src="@drawable/ic_enviar"/>
+        </LinearLayout>
+
+</LinearLayout>
+    </ScrollView>

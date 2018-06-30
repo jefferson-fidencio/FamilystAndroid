@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#40bf80</color>
+    <color name="colorPrimaryDark">#26734d</color>
+    <color name="colorAccent">#31aa82</color>
+    <color name="cor_padrao">#31aa82</color>
+    <color name="cor_branco">#ffffff</color>
+    <color name="cor_cinza">#a5a5a5</color>
+    <color name="cor_preto">#000000</color>
+    <color name="cor_vermelho">#db2020</color>
+</resources>

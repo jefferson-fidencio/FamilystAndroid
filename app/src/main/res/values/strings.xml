@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Familyst</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- TODO MOCK MOCADASSO -->
+    <string-array name="image_ids">
+        <item>@drawable/image_1</item>
+        <item>@drawable/image_2</item>
+        <item>@drawable/image_3</item>
+        <item>@drawable/image_4</item>
+        <item>@drawable/image_5</item>
+        <item>@drawable/image_6</item>
+    </string-array>
+    <string name="title_activity_tab_host_eventos">TabHostEventosActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- strings de output Familias -->
+    <string name="falha_atualizar_familias">Falha ao atualizar famílias.</string>
+    <string name="falha_cadastro_familia">Falha ao enviar família!</string>
+    <string name="falha_remover_familia">Falha ao excluir família.</string>
+    <string name="falha_editar_familia">Falha ao editar família.</string>
+
+    <!-- strings de output Usuarios -->
+    <string name="falha_remover_usuario">Falha ao excluir usuário.</string>
+    <string name="falha_editar_usuario">Falha ao editar usuário.</string>
+
+    <!-- strings de output Noticias -->
+    <string name="sucesso_cadastro_noticia">Notícia enviada com sucesso!</string>
+    <string name="falha_cadastro_noticia">Falha ao enviar notícia!</string>
+    <string name="sucesso_atualizar_noticias">Notícias atualizadas.</string>
+    <string name="falha_atualizar_noticias">Falha ao atualizar notícias.</string>
+    <string name="falha_remover_noticia">Falha ao excluir notícia.</string>
+    <string name="falha_editar_noticia">Falha ao editar notícia.</string>
+    <!-- strings de output Videos -->
+    <string name="sucesso_cadastro_video">Vídeo enviado com sucesso!</string>
+    <string name="falha_cadastro_video">Falha ao enviar vídeo!</string>
+    <string name="sucesso_atualizar_videos">Vídeos atualizados.</string>
+    <string name="falha_atualizar_videos">Falha ao atualizar vídeos.</string>
+    <string name="falha_remover_video">Falha ao excluir vídeo.</string>
+    <string name="falha_editar_video">Falha ao editar vídeo.</string>
+    <!-- strings de output Albuns -->
+    <string name="sucesso_cadastro_album">Álbum enviado com sucesso!</string>
+    <string name="falha_cadastro_album">Falha ao enviar álbum!</string>
+    <string name="sucesso_atualizar_albums">Álbuns atualizados.</string>
+    <string name="falha_atualizar_albums">Falha ao atualizar álbuns.</string>
+    <string name="falha_remover_album">Falha ao excluir álbum.</string>
+    <string name="falha_editar_album">Falha ao editar álbum.</string>
+    <!-- strings de output Eventos -->
+    <string name="sucesso_cadastro_evento">Evento enviado com sucesso!</string>
+    <string name="falha_cadastro_evento">Falha ao enviar evento!</string>
+    <string name="sucesso_atualizar_eventos">Eventos atualizados.</string>
+    <string name="falha_atualizar_eventos">Falha ao atualizar eventos.</string>
+    <string name="falha_editar_evento">Falha ao editar evento.</string>
+    <string name="falha_remover_evento">Falha ao remover evento.</string>
+    <!-- strings de output Membros -->
+    <string name="sucesso_cadastro_membro">Membro cadastrado com sucesso!</string>
+    <string name="falha_cadastro_membro">Falha ao cadastrado membro!</string>
+    <string name="sucesso_atualizar_membros">Membros atualizados.</string>
+    <string name="falha_atualizar_membros">Falha ao atualizar membros.</string>
+    <string name="falha_remover_membro">Falha ao excluir membro da família.</string>
+    <!-- strings de output Relacionamento usuario familia -->
+    <string name="sucesso_relacionamento_membro">Membro inserido com sucesso!</string>
+    <string name="falha_relacionamento_membro">Falha ao inserido membro!</string>
+    <string name="falha_relacionamento_membro_inexistente">Usuário não cadastrado na plataforma.</string>
+    <string name="falha_relacionamento_membro_ja_pertencente">Usuário já pertencente à família.</string>
+    <!-- strings de output envio email -->
+    <string name="sucesso_envio_email">Senha enviada com sucesso! Verifique a caixa de entrada do e-mail informado.</string>
+    <string name="falha_envio_email">Falha ao enviar senha!</string>
+    <!-- strings de output Comentarios -->
+    <string name="sucesso_cadastro_comentario">Comentário enviado com sucesso!</string>
+    <string name="falha_cadastro_comentario">Falha ao enviar comentário!</string>
+    <string name="sucesso_atualizar_comentarios">Comentários atualizados.</string>
+    <string name="falha_atualizar_comentarios">Falha ao atualizar comentários.</string>
+    <!-- strings de output Fotos -->
+    <string name="sucesso_cadastro_foto">Foto enviada com sucesso!</string>
+    <string name="falha_cadastro_foto">Falha ao enviar foto!</string>
+    <string name="sucesso_atualizar_fotos">Fotos atualizadas.</string>
+    <string name="falha_atualizar_fotos">Falha ao atualizar fotos.</string>
+</resources>

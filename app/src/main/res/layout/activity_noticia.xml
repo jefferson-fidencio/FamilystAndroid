@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/relative"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scroll_view"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="Escreva um comentário..."
+            android:id="@+id/txt_comentario_enviar"
+            android:layout_weight="5"
+            />
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_gravity="end"
+            android:layout_weight="0.95"
+            android:id="@+id/btn_enviar_comentario"
+            android:src="@drawable/ic_enviar"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:id="@+id/scroll_view"
+        android:layout_height="465dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="match_parent">
+                <LinearLayout
+                   android:orientation="horizontal"
+                   android:layout_width="match_parent"
+                   android:layout_marginTop="10dp"
+                   android:layout_marginLeft="5dp"
+                   android:gravity="start"
+
+                   android:layout_height="wrap_content">
+
+                   <ImageView
+                       android:layout_width="30dp"
+                       android:layout_height="30dp"
+                   android:tint="@color/cor_preto"
+                   android:src="@drawable/ic_profile"/>
+
+                   <TextView
+                       android:id="@+id/criador_noticia"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Jean Carlo criou essa notícia"
+                       android:layout_marginLeft="10dp"
+                       android:layout_gravity="center"
+                       android:textSize="15dp"/>
+
+               </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/txt_noticia_aberta"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Este é um exemplo de notícia gigantesco de grande pq sim pq é não reclame velho tô testando o layout. Este é um exemplo de notícia gigantesco de grande pq sim pq é não reclame velho tô testando o layout."
+                        android:layout_margin="20dp"
+                        android:layout_gravity="center"
+                        android:textColor="@color/cor_preto"
+                        android:textSize="20dp"/>
+
+                <TextView
+                    android:id="@+id/comentarios"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Comentários"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="15dp"/>
+
+                    <ListView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/listview_comentarios_noticia"
+                        android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="voluta.familyst">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA"> </uses-permission>
+
+    <application
+        android:name=".FamilystApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/logo_512"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Activities.BaseActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.MainActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Activities.LoginActivity" />
+        <activity android:name=".Activities.CadastroActivity" />
+        <activity android:name=".Activities.CadastroFamiliaActivity" />
+        <activity android:name=".Activities.CadastroNoticiaActivity" />
+        <activity android:name=".Activities.CadastroAlbumActivity" />
+        <activity android:name=".Activities.CadastroGaleriaActivity" />
+        <activity android:name=".Activities.AlbumActivity" />
+        <activity android:name=".Activities.DetalheFotoActivity" />
+        <activity android:name=".Activities.CadastroVideoActivity" />
+        <activity android:name=".Activities.LoadingDataActivity" />
+        <activity android:name=".Activities.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activities.PerfilActivity" />
+        <activity android:name=".Activities.RedefinirSenhaActivity" />
+        <activity android:name=".Activities.TabHostEventosActivity" />
+        <activity android:name=".Activities.NoticiaActivity" />
+        <activity android:name=".Activities.CadastroMembroActivity" />
+        <activity android:name=".Activities.CadastroFotoActivity"></activity>
+    </application>
+
+</manifest>
